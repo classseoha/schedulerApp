@@ -3,7 +3,7 @@ package com.example.schedulerapp.dto;
 import lombok.Getter;
 
 @Getter
-public class UserRequestDto {
+public class SignUpRequestDto {
 
     private final String username;
 
@@ -11,7 +11,7 @@ public class UserRequestDto {
 
     private final String email;
 
-    public UserRequestDto(String username, String password, String email) {
+    public SignUpRequestDto(String username, String password, String email) {
         this.username = username;
         this.password = password;
         this.email = email;

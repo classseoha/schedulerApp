@@ -1,7 +1,11 @@
-# 일정 관리 앱
+# Scheduler App
+
 ## API 명세서
-https://documenter.getpostman.com/view/39354432/2sAY519Leg
+https://sparta-8663.postman.co/workspace/sparta-Workspace~fc43ed61-a1fc-48a8-92c9-142420554112/collection/43163091-4229dda7-0105-476f-9577-ef5bb4da6e5f?action=share&creator=43163091
+
+----
 
 ## ERD
-<img width="283" alt="스크린샷 2024-10-31 오후 9 21 07" src="https://github.com/user-attachments/assets/2298923b-08b0-4952-8c00-e5842d16d7d7">
+<img src="https://github.com/classseoha/schedulerApp/blob/main/ERD.png?raw=true">
 
+----

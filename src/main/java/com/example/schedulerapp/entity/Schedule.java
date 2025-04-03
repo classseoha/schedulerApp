@@ -15,7 +15,7 @@ public class Schedule extends BaseEntity {
     @Column(nullable = false)
     private String title;
 
-    @Column(columnDefinition = "lontext") //VARCHAR 보다 훨씬 긴 텍스트 저장 가능
+    @Column(columnDefinition = "longtext") //VARCHAR 보다 훨씬 긴 텍스트 저장 가능
     private String contents;
 
     @ManyToOne
@@ -30,7 +30,16 @@ public class Schedule extends BaseEntity {
         this.contents = contents;
     }
 
-    public void setMember(User user) { //작성자 추가
+    public void setUser(User user) { //작성자 추가
         this.user = user;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+
+    public void setContents(String contents) {
+        this.contents = contents;
     }
 }

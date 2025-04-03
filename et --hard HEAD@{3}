@@ -1,0 +1,14 @@
+[33mdf8618b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{0}: rebase (abort): returning to refs/heads/main
+[33m27dc771[m HEAD@{1}: commit: Feat : 기능 추가 및 오류 수정
+[33mcd26f90[m HEAD@{2}: commit: Feat : 기능 추가
+[33m23bba86[m HEAD@{3}: commit: Feat : 기능 추가
+[33m5d44cd5[m HEAD@{4}: reset: moving to 5d44cd5
+[33m87aed00[m HEAD@{5}: pull origin main --rebase (start): checkout 87aed000803a42b9eccc12e7a24b17bb7b395d50
+[33mdf8618b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{6}: Branch: renamed refs/heads/main to refs/heads/main
+[33mdf8618b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{8}: pull origin main --rebase (finish): returning to refs/heads/main
+[33mdf8618b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{9}: pull origin main --rebase (pick): first commit
+[33m35d36d2[m HEAD@{10}: pull origin main --rebase (pick): init commit
+[33m48c924d[m HEAD@{11}: pull origin main --rebase (start): checkout 48c924d1d0dcda45146d4a9a7e279dca91985b98
+[33m5d44cd5[m HEAD@{12}: Branch: renamed refs/heads/master to refs/heads/main
+[33m5d44cd5[m HEAD@{14}: commit: first commit
+[33m917434d[m HEAD@{15}: commit (initial): init commit
