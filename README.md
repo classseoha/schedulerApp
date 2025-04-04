@@ -2,7 +2,6 @@
 
 ## 📌 프로젝트 개요
 
-----
 Scheduler App은 사용자가 개인 일정을 관리할 수 있도록 돕는 웹 애플리케이션입니다.
 사용자는 일정(할 일)을 생성, 수정, 삭제할 수 있으며, 회원가입 및 로그인 기능을 통해 개인화된 서비스를 이용할 수 있습니다.
 로그인 기능은 Cookie/Session을 활용하여 인증을 수행하며, 일정과 사용자 정보는 JPA를 활용하여 데이터베이스에 저장됩니다.
@@ -10,7 +9,6 @@ Scheduler App은 사용자가 개인 일정을 관리할 수 있도록 돕는 �
 
 ## 📌 개발 환경 및 기술 스택
 
-----
 ### 개발 환경
 * 언어: Java 17
 * 프레임워크: Spring Boot 3.4.4
@@ -32,7 +30,6 @@ Scheduler App은 사용자가 개인 일정을 관리할 수 있도록 돕는 �
 
 ## 📌 주요 기능 
 
-----
 ### Lv 1. 일정 CRUD
 * 일정 생성, 조회, 수정, 삭제 기능 제공
 * 일정의 주요 필드: 작성 유저명, 할 일 제목, 할 일 내용, 작성일, 수정일
@@ -57,12 +54,10 @@ Scheduler App은 사용자가 개인 일정을 관리할 수 있도록 돕는 �
 
 ## 📌 API 명세서
 
-----
 https://sparta-8663.postman.co/workspace/sparta-Workspace~fc43ed61-a1fc-48a8-92c9-142420554112/collection/43163091-4229dda7-0105-476f-9577-ef5bb4da6e5f?action=share&creator=43163091
 
 
 ## 📌 ERD
 
-----
 <img src="https://github.com/classseoha/schedulerApp/blob/main/ERD.png?raw=true">
 
