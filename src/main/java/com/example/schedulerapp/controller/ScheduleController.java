@@ -18,7 +18,7 @@ import java.util.List;
 public class ScheduleController {
 
     private final ScheduleService scheduleService;
-    private final ResourceUrlProvider resourceUrlProvider;
+    private final ResourceUrlProvider resourceUrlProvider; //Spring MVC에서 정적 리소스(static resources >> CSS, JavaScript, 이미지 파일 등)의 URL을 관리하는 역할을 하는 빈
 
     //게시글 생성 기능
     @PostMapping

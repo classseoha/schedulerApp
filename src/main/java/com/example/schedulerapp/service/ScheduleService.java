@@ -27,7 +27,7 @@ public class ScheduleService {
 
         Schedule savedSchedule = scheduleRepository.save(schedule); //DB에 일정 저장
 
-        return new ScheduleResponseDto(savedSchedule.getId(), savedSchedule.getTitle(), savedSchedule.getContents()); //ScheduleResponseDto를 만들어서 반환
+        return new ScheduleResponseDto(savedSchedule.getId(), savedSchedule.getTitle(), savedSchedule.getContents(), savedSchedule.getCreatedAt(), savedSchedule.getModifiedAt()); //ScheduleResponseDto를 만들어서 반환
     }
 
     public List<ScheduleResponseDto> findAll() {
@@ -44,7 +44,7 @@ public class ScheduleService {
         Schedule findSchedule = scheduleRepository.findByIdOrElseThrow(id);
         User writer = findSchedule.getUser();//작성자 찾기
 
-        return new ScheduleResponseDto(id, findSchedule.getTitle(), findSchedule.getContents());
+        return new ScheduleResponseDto(id, findSchedule.getTitle(), findSchedule.getContents(), findSchedule.getCreatedAt(), findSchedule.getModifiedAt());
     }
 
     public void delete(Long id) {
@@ -69,7 +69,7 @@ public class ScheduleService {
 
         Schedule updatedSchedule = scheduleRepository.save(schedule);
 
-        return new ScheduleResponseDto(updatedSchedule.getId(), updatedSchedule.getTitle(), updatedSchedule.getContents());
+        return new ScheduleResponseDto(updatedSchedule.getId(), updatedSchedule.getTitle(), updatedSchedule.getContents(), updatedSchedule.getCreatedAt(), updatedSchedule.getModifiedAt());
 
     }
 }

@@ -2,6 +2,8 @@ package com.example.schedulerapp.dto;
 
 import lombok.Getter;
 
+import java.time.LocalDateTime;
+
 @Getter
 public class SignUpResponseDto {
 
@@ -11,9 +13,15 @@ public class SignUpResponseDto {
 
     private final String email;
 
-    public SignUpResponseDto(Long id, String username, String email) {
+    private final LocalDateTime createdAt;
+
+    private final LocalDateTime modifiedAt;
+
+    public SignUpResponseDto(Long id, String username, String email, LocalDateTime createdAt, LocalDateTime modifiedAt) {
         this.id = id;
         this.username = username;
         this.email = email;
+        this.createdAt = createdAt;
+        this.modifiedAt = modifiedAt;
     }
 }

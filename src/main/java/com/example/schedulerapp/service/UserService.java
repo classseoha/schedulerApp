@@ -24,7 +24,7 @@ public class UserService { //확장될 여지가 없다면 구현체 클래스 �
 
         User savedUser = userRepository.save(user); //JPA가 제공하는 기본 메서드
 
-        return new SignUpResponseDto(savedUser.getId(), savedUser.getUsername(), savedUser.getEmail());
+        return new SignUpResponseDto(savedUser.getId(), savedUser.getUsername(), savedUser.getEmail(),savedUser.getCreatedAt(), savedUser.getModifiedAt());
     }
 
     public UserResponseDto findById(Long id) {
@@ -38,7 +38,7 @@ public class UserService { //확장될 여지가 없다면 구현체 클래스 �
 
         User findMember = optionalMember.get();
 
-        return new UserResponseDto(findMember.getUsername(), findMember.getEmail());
+        return new UserResponseDto(findMember.getUsername(), findMember.getEmail(), findMember.getCreatedAt(), findMember.getModifiedAt());
     }
 
     @Transactional //하나의 트랜젝션 안에서 동작하도록 해줘야 함
